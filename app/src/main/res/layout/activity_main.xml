@@ -1,66 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     tools:context=".MainActivity">
 
     <TextView
-        android:textSize="30sp"
-        android:text="View 1"
+        android:id="@+id/textviewRed"
+        android:textSize="35sp"
+        android:textColor="#ffff"
+        android:background="#EF5350"
+        android:text="Red"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
-        android:layout_alignParentEnd="true"
-        android:textSize="30sp"
-        android:text="View 2"
+        android:layout_below="@id/textviewRed"
+        android:id="@+id/textviewGreen"
+        android:textSize="35sp"
+        android:textColor="#ffff"
+        android:background="#66BB6A"
+        android:text="Green"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
-        android:layout_alignParentBottom="true"
-        android:textSize="30sp"
-        android:text="View 3"
+        android:layout_below="@id/textviewGreen"
+        android:id="@+id/textviewBlue"
+        android:textSize="35sp"
+        android:textColor="#ffff"
+        android:background="#29B6F6"
+        android:text="Blue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:textSize="30sp"
-        android:text="View 4"
+        android:layout_below="@id/textviewBlue"
+        android:id="@+id/textviewOrange"
+        android:textSize="35sp"
+        android:textColor="#ffff"
+        android:background="#FFA726"
+        android:text="Orange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
-        android:layout_centerHorizontal="true"
-        android:textSize="30sp"
-        android:text="View 5"
+        android:layout_below="@id/textviewOrange"
+        android:id="@+id/textviewGray"
+        android:textSize="35sp"
+        android:textColor="#ffff"
+        android:background="#939392"
+        android:text="Gray"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
-        android:layout_alignParentEnd="true"
-        android:layout_centerVertical="true"
-        android:textSize="30sp"
-        android:text="View 6"
+        android:layout_below="@id/textviewGray"
+        android:id="@+id/textviewPink"
+        android:textSize="35sp"
+        android:textColor="#ffff"
+        android:background="#EC407A"
+        android:text="Pink"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-    <TextView
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:textSize="30sp"
-        android:text="View 7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
-        android:layout_centerVertical="true"
-        android:textSize="30sp"
-        android:text="View 8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
-        android:layout_centerInParent="true"
-        android:textSize="30sp"
-        android:text="View 9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+
+
 </RelativeLayout>
